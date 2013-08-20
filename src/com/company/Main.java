@@ -17,6 +17,8 @@ public class Main {
         server.mount("/redirect", new Redirect());
         server.mount("/file1", new FileHandler(rootDir));
         server.mount("/text-file.txt", new FileHandler(rootDir));
+        server.mount("/partial_content.txt", new FileHandler(rootDir));
+        server.mount("/method_options", new Root());
         server.mount("/logs", basicAuth);
         server.mount("/log", basicAuth);
         server.mount("/these", basicAuth);
