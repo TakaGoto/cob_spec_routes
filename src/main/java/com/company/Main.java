@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         parseArgs(args);
-        Server server = new Server(defaultPort, rootDir);
+        Server server = new Server(defaultPort);
         BasicAuth basicAuth = new BasicAuth();
         server.mount("/", new Root());
         server.mount("/form", new PutPost());
