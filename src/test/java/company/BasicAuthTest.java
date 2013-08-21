@@ -1,4 +1,4 @@
-package tests;
+package company;
 
 import com.company.responders.BasicAuth;
 import com.sun.org.apache.xml.internal.security.utils.Base64;

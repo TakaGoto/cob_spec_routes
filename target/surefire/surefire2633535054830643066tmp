@@ -1,0 +1,29 @@
+#surefire
+#Tue Aug 20 11:53:31 CDT 2013
+testClassesDirectory=/Users/takayuki/Coding/java/cob_spec_server/target/test-classes
+classPathUrl.3=/Users/takayuki/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+classPathUrl.2=/Users/takayuki/.m2/repository/junit/junit/4.11/junit-4.11.jar
+useManifestOnlyJar=true
+classPathUrl.1=/Users/takayuki/Coding/java/cob_spec_server/target/classes
+reportsDirectory=/Users/takayuki/Coding/java/cob_spec_server/target/surefire-reports
+classPathUrl.0=/Users/takayuki/Coding/java/cob_spec_server/target/test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=/Users/takayuki/Coding/java/cob_spec_server/src/test/java
+surefireClassPathUrl.1=/Users/takayuki/.m2/repository/org/apache/maven/surefire/surefire-api/2.7.2/surefire-api-2.7.2.jar
+surefireClassPathUrl.0=/Users/takayuki/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.7.2/surefire-junit4-2.7.2.jar
+runOrder=filesystem
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=/Users/takayuki/Coding/java/cob_spec_server/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+includes0=**/Test*.java
+childDelegation=false

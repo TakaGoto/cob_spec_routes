@@ -1,4 +1,4 @@
-package tests;
+package company;
 
 import com.company.responders.ParameterDecode;
 import org.junit.Test;

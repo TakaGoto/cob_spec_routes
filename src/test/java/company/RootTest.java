@@ -1,4 +1,4 @@
-package tests;
+package company;
 
 import com.company.responders.Root;
 import junit.framework.Assert;

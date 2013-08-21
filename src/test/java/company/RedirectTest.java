@@ -1,4 +1,4 @@
-package tests;
+package company;
 
 import com.company.responders.Redirect;
 import org.junit.Test;
