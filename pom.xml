@@ -17,9 +17,11 @@
         </dependency>
 
         <dependency>
-            <groupId>TakaServer</groupId>
-            <artifactId>TakaServerJar</artifactId>
-            <version>1.0.0</version>
+          <groupId>TakaServer</groupId>
+          <artifactId>TakaServer</artifactId>
+          <scope>system</scope>
+          <version>1.0</version>
+          <systemPath>${project.basedir}/lib/java_server.jar</systemPath>
         </dependency>
     </dependencies>
 </project>
